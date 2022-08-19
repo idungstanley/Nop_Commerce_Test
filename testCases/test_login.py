@@ -6,7 +6,7 @@ class Test_001_Login:
     username = 'admin@yourstore.com'
     password = "admin"
 
-    def test_homePageTitle(self, setup):
+    def test_home_page_title(self, setup):
         self.driver = setup
         self.driver.get(self.baseURL)
         act_title = self.driver.title
