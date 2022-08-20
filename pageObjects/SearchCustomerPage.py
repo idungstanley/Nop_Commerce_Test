@@ -23,3 +23,9 @@ class SearchCustomer():
     def setLastName(self, lname):
         self.driver.find_element_by_id(self.txtLastName_id).clear()
         self.driver.find_element_by_id(self.txtLastName_id).send_keys(lname)
+
+    def clickSearch(self):
+        self.driver.find_element_by_id(self.btnSearch_id).click()
+
+    def getNoOfRows(self):
+        return len(self.driver.find_elements_by_xpath(self.tableRows_xpath))
