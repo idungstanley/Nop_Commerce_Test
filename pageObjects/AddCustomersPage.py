@@ -74,3 +74,6 @@ class AddCustomer:
             self.driver.find_element_by_id(self.rdFeMaleGender_id).click()
         else:
             self.driver.find_element_by_id(self.rdMaleGender_id).click()
+
+    def setFirstName(self, fname):
+        self.driver.find_element_by_xpath(self.txtFirstName_xpath).send_keys(fname)
