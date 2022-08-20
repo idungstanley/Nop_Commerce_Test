@@ -31,3 +31,12 @@ class AddCustomer:
 
     def clickOnCustomersMenuItem(self):
         self.driver.find_element_by_xpath(self.lnkCustomers_menuitem_xpath).click()
+
+    def clickOnAddnew(self):
+        self.driver.find_element_by_xpath(self.btnAddnew_xpath).click()
+
+    def setEmail(self, email):
+        self.driver.find_element_by_xpath(self.txtEmail_xpath).send_keys(email)
+
+    def setPassword(self, password):
+        self.driver.find_element_by_xpath(self.txtPassword_xpath).send_keys(password)
