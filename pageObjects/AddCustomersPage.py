@@ -62,3 +62,15 @@ class AddCustomer:
         time.sleep(3)
         # self.listitem.click()
         self.driver.execute_script("arguments[0].click();", self.listitem)
+
+    def setManagerOfVendor(self, value):
+        drp = Select(self.driver.find_element_by_xpath(self.drpmgrOfVendor_xpath))
+        drp.select_by_visible_text(value)
+
+    def setGender(self, gender):
+        if gender == 'Male':
+            self.driver.find_element_by_id(self.rdMaleGender_id).click()
+        elif gender == 'Female':
+            self.driver.find_element_by_id(self.rdFeMaleGender_id).click()
+        else:
+            self.driver.find_element_by_id(self.rdMaleGender_id).click()
