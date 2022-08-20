@@ -77,3 +77,6 @@ class AddCustomer:
 
     def setFirstName(self, fname):
         self.driver.find_element_by_xpath(self.txtFirstName_xpath).send_keys(fname)
+
+    def setLastName(self, lname):
+        self.driver.find_element_by_xpath(self.txtLastName_xpath).send_keys(lname)
