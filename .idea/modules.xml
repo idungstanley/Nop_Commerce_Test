@@ -5,9 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/.idea/.idea.iml" filepath="$PROJECT_DIR$/.idea/.idea/.idea.iml" />
       <module fileurl="file://$PROJECT_DIR$/Configurations/.idea/Configurations.iml" filepath="$PROJECT_DIR$/Configurations/.idea/Configurations.iml" />
       <module fileurl="file://$PROJECT_DIR$/Logs/.idea/Logs.iml" filepath="$PROJECT_DIR$/Logs/.idea/Logs.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pageObjects/Reports/.idea/Reports.iml" filepath="$PROJECT_DIR$/pageObjects/Reports/.idea/Reports.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pageObjects/Screenshots/.idea/Screenshots.iml" filepath="$PROJECT_DIR$/pageObjects/Screenshots/.idea/Screenshots.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testCases/TestData/.idea/TestData.iml" filepath="$PROJECT_DIR$/testCases/TestData/.idea/TestData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reports/.idea/Reports.iml" filepath="$PROJECT_DIR$/Reports/.idea/Reports.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Screenshots/.idea/Screenshots.iml" filepath="$PROJECT_DIR$/Screenshots/.idea/Screenshots.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestData/.idea/TestData.iml" filepath="$PROJECT_DIR$/TestData/.idea/TestData.iml" />
       <module fileurl="file://$PROJECT_DIR$/pageObjects/.idea/pageObjects.iml" filepath="$PROJECT_DIR$/pageObjects/.idea/pageObjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pycharm_test_config.iml" filepath="$PROJECT_DIR$/.idea/pycharm_test_config.iml" />
       <module fileurl="file://$PROJECT_DIR$/testCases/.idea/testCases.iml" filepath="$PROJECT_DIR$/testCases/.idea/testCases.iml" />
