@@ -86,3 +86,9 @@ class AddCustomer:
 
     def setCompanyName(self, comname):
         self.driver.find_element_by_xpath(self.txtCompanyName_xpath).send_keys(comname)
+
+    def setAdminContent(self, content):
+        self.driver.find_element_by_xpath(self.txtAdminContent_xpath).send_keys(content)
+
+    def clickOnSave(self):
+        self.driver.find_element_by_xpath(self.btnSave_xpath).click()
