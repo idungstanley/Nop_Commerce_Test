@@ -15,3 +15,11 @@ class SearchCustomer():
     def setEmail(self, email):
         self.driver.find_element_by_id(self.txtEmail_id).clear()
         self.driver.find_element_by_id(self.txtEmail_id).send_keys(email)
+
+    def setFirstName(self, fname):
+        self.driver.find_element_by_id(self.txtFirstName_id).clear()
+        self.driver.find_element_by_id(self.txtFirstName_id).send_keys(fname)
+
+    def setLastName(self, lname):
+        self.driver.find_element_by_id(self.txtLastName_id).clear()
+        self.driver.find_element_by_id(self.txtLastName_id).send_keys(lname)
