@@ -22,3 +22,12 @@ class AddCustomer:
     txtCompanyName_xpath = "//input[@id='Company']"
     txtAdminContent_xpath = "//textarea[@id='AdminComment']"
     btnSave_xpath = "//button[@name='save']"
+
+    def __init__(self, driver):
+        self.driver = driver
+
+    def clickOnCustomersMenu(self):
+        self.driver.find_element_by_xpath(self.lnkCustomers_menu_xpath).click()
+
+    def clickOnCustomersMenuItem(self):
+        self.driver.find_element_by_xpath(self.lnkCustomers_menuitem_xpath).click()
