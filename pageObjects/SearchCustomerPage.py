@@ -42,3 +42,13 @@ class SearchCustomer():
                 flag = True
                 break
         return flag
+
+    def searchCustomerByName(self, Name):
+        flag = False
+        for r in range(1, self.getNoOfRows() + 1):
+            table = self.driver.find_element_by_xpath(self.table_xpath)
+            name = table.find_element_by_xpath("//table[@id='customers-grid']/tbody/tr[" + str(r) + "]/td[3]").text
+            if name == Name:
+                flag = True
+                break
+        return flag
