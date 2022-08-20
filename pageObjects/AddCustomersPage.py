@@ -80,3 +80,9 @@ class AddCustomer:
 
     def setLastName(self, lname):
         self.driver.find_element_by_xpath(self.txtLastName_xpath).send_keys(lname)
+
+    def setDob(self, dob):
+        self.driver.find_element_by_xpath(self.txtDob_xpath).send_keys(dob)
+
+    def setCompanyName(self, comname):
+        self.driver.find_element_by_xpath(self.txtCompanyName_xpath).send_keys(comname)
